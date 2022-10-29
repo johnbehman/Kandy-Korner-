@@ -1,0 +1,193 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "name": "John",
+      "email": "John@mail.com",
+      "isStaff": false
+    },
+    {
+      "id": 2,
+      "name": "Kyle",
+      "email": "kyle@mail.com",
+      "isStaff": false
+    },
+    {
+      "id": 3,
+      "name": "Alex",
+      "email": "Alex@mail.com",
+      "isStaff": false
+    },
+    {
+      "id": 4,
+      "name": "Demin",
+      "email": "Demin@mail.com",
+      "isStaff": true
+    },
+    {
+      "id": 5,
+      "name": "Hanaa",
+      "email": "Hanan@mail.com",
+      "isStaff": true
+    }
+  ],
+  "customers": [
+    {
+      "id": 1,
+      "userId": 1,
+      "loyaltyNumber": 11225
+    },
+    {
+      "id": 2,
+      "userId": 2,
+      "loyaltyNumber": 44000
+    },
+    {
+      "id": 3,
+      "userId": 3,
+      "loyaltyNumber": 232323
+    }
+  ],
+  "employees": [
+    {
+      "id": 1,
+      "userId": 4,
+      "storeId": 1,
+      "startDate": "Fri Apr 29 2022 14:02:20 GMT-0500 (Central Daylight Time)",
+      "payRate": 16
+    },
+    {
+      "id": 2,
+      "userId": 5,
+      "storeId": 2,
+      "startDate": "Sat Apr 30 2022 14:02:20 GMT-0500 (Central Daylight Time)",
+      "payRate": 17
+    }
+  ],
+  "stores": [
+    {
+      "id": 1,
+      "address": "101 Road Street",
+      "sqFootage": 2500
+    },
+    {
+      "id": 2,
+      "address": "202 Main Avenue",
+      "sqFootage": 1900
+    },
+    {
+      "id": 3,
+      "address": "303 Second Drive",
+      "sqFootage": 1800
+    }
+  ],
+  "products": [
+    {
+      "id": 1,
+      "name": "Gummy Bears",
+      "productTypesId": 1,
+      "price": 1.5
+    },
+    {
+      "id": 2,
+      "name": "Gummy Worms",
+      "productTypesId": 1,
+      "price": 1.5
+    },
+    {
+      "id": 3,
+      "name": "Milk Chocolate Bar",
+      "productTypesId": 2,
+      "price": 2
+    },
+    {
+      "id": 4,
+      "name": "Milk Chocolate Bar With Almonds",
+      "productTypesId": 2,
+      "price": 3.5
+    },
+    {
+      "id": 5,
+      "name": "Dark Chocolate Bar",
+      "productTypesId": 2,
+      "price": 3
+    },
+    {
+      "id": 6,
+      "name": "White Chocolate Bar",
+      "productTypesId": 2,
+      "price": 4
+    },
+    {
+      "id": 7,
+      "name": "Caramel Pop",
+      "productTypesId": 3,
+      "price": 4
+    },
+    {
+      "id": 8,
+      "name": "Caramel Pop With Nuts",
+      "productTypesId": 3,
+      "price": 5
+    },
+    {
+      "id": 9,
+      "name": "Banana Taffy",
+      "productTypesId": 4,
+      "price": 1
+    },
+    {
+      "id": 10,
+      "name": "Raspberry Taffy",
+      "productTypesId": 4,
+      "price": 1.5
+    },
+    {
+      "name": "asdfasdf",
+      "productTypesId": 2,
+      "price": 1,
+      "id": 11
+    }
+  ],
+  "productTypes": [
+    {
+      "id": 1,
+      "type": "Gummy"
+    },
+    {
+      "id": 2,
+      "type": "Chocolate"
+    },
+    {
+      "id": 3,
+      "type": "Caramel"
+    },
+    {
+      "id": 4,
+      "type": "Taffy"
+    }
+  ],
+  "purchases": [
+    {
+      "id": 1,
+      "customerId": 1,
+      "storeId": 1,
+      "productId": 1,
+      "productCount": 3
+    },
+    {
+      "id": 2,
+      "customerId": 2,
+      "storeId": 2,
+      "productId": 5,
+      "productCount": 1
+    },
+    {
+      "id": 3,
+      "customerId": 3,
+      "storeId": 3,
+      "productId": 7,
+      "productCount": 5
+    }
+  ]
+}
